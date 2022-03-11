@@ -6,12 +6,16 @@
   "exports": {
     ".": "./index.js",
     "./Button": "./Button.astro",
-    "./Heading": "./Heading.astro"
+    "./Heading": "./Heading.astro",
+    "./Counter": "./Counter.jsx",
+    "./LazyCounter": "./LazyCounter.astro"
   },
   "files": [
     "index.js",
     "Button.astro",
-    "Heading.jsx"
+    "Heading.jsx",
+    "Counter.jsx",
+    "LazyCounter.astro"
   ],
   "keywords": [
     "astro-component",
